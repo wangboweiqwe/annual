@@ -1,0 +1,201 @@
+.swiper-container, body, html, #root {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+#root {
+  position: relative;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* justify-content: flex-start; */
+  align-items: center;
+  height: 100%;
+}
+/* 第一页 */
+.home-ladder {
+  width: 4.2rem;
+  margin-top: .5rem;
+}
+.home-title {
+  width: 6.2rem;
+  margin-top: 1.2rem;
+}
+.bottomimg {
+  width: .54rem;
+  margin-top: .5rem;
+}
+/* 第二屏 */
+div.first-date {
+  font-size: .3rem;
+  line-height: .5rem;
+  color: #fff;
+  width: 80%;
+}
+span.big {
+  font-size: .5rem;
+  line-height: .3rem;
+}
+span.normal {
+  display: inline-block;
+  margin: 0 .1rem;
+  color: #f8e71c;
+  text-align: center;
+}
+p.date {
+  color: #f8e71c;
+}
+/* 城市图片 */
+.city {
+  width: 6.18rem;
+  margin-top: 1.4rem;
+}
+.connection {
+  width: .397rem;
+  margin-left: 3.741rem;
+  margin-top: -.6rem;
+}
+p.tishi {
+  padding-right: 0.1rem;
+  align-self: flex-end;
+  color: #f8e71c;
+  font-size: .24rem;
+  text-align: left;
+  line-height: .33rem;
+}
+.mymove1 {
+  animation: mymove 5s linear infinite;
+}
+.mymove2 {
+  animation: mymove 5s linear 1s infinite;
+}
+.mymove3 {
+  animation: mymove 5s linear 2s infinite;
+}
+.mymove4 {
+  animation: mymove 5s linear 3s infinite;
+}
+p.playdays {
+  font-size: .3rem;
+  line-height: .5rem;
+  height: .5rem;
+  color: #fff;
+  width: 100%;
+  left: 0;
+  padding-right: 1.6rem;
+  margin-top: 0.5rem;
+  text-align: right;
+}
+/* 第三页Achievement */
+.data {
+  margin-left: .6rem;
+  align-self: flex-start;
+}
+.data>p{
+  font-size: .3rem;
+  line-height: .5rem;
+  height: .5rem;
+  color: #fff;
+  width: 100%;
+}
+.data .nomargin {
+  color: #f8e71c;
+}
+.iphone {
+  width: 4.35rem;
+  align-self: flex-start;
+  margin: 2rem 0 0 1.254rem;
+  z-index: -1;
+}
+.pikaqiu {
+  align-self: flex-start;
+  width: 1.22rem;
+  margin: -1.2rem 0 0 4.39rem;
+}
+.qiaoba {
+  align-self: flex-start;
+  width: 1.23rem;
+  margin: -4rem 0 0 .74rem;
+}
+.jiqimao {
+  align-self: flex-start;
+  width: 1.22rem;
+  margin: -2rem 0 0 4.44rem;
+}
+.cloud3 {
+  align-self: flex-start;
+  width: 1.2rem;
+  margin: -1.2rem 0 0 2.471rem;
+}
+.cloud1 {
+  align-self: flex-start;
+  width: .8rem;
+  margin: -2rem 0 0 2.981rem;
+}
+.cloud2 {
+  align-self: flex-start;
+  width: .9rem;
+  margin: 0.8rem 0 0 5.934rem;
+}
+.bluerect3 {
+  width: .236rem;
+  align-self: flex-start;
+  margin: 1rem 0 0 5.69rem;
+}
+.bluerect2 {
+  align-self: flex-start;
+  width: .321rem;
+  margin: -1rem 0 0 5.92rem;
+}
+.bluerect1 {
+  align-self: flex-start;
+  width: .343rem;
+  margin-left: 0.57rem;
+}
+.bluepeople {
+  align-self: flex-start;
+  width: .73rem;
+  margin: .5rem 0 0 3.35rem;
+}
+.three {
+  align-self: flex-start;
+  width: .563rem;
+  margin-left: 2.9rem;
+}
+p.tishi2 {
+  align-self: flex-start;
+  width: 40%;
+  text-align: right;
+  font-size: .24rem;
+  line-height: .33rem;
+  color: #f8e71c;
+  white-space: pre-wrap;
+}
+p.friends {
+  align-self: flex-end;
+  padding-right: .6rem;
+  font-size: .3rem;
+  line-height: .5rem;
+}
+p.firstFr {
+  margin-top: -0.3rem;
+}
+p.QQgroup {
+  margin-top: .3rem;
+}
+@keyframes mymove {
+  25% {
+    transform: translateY(.15rem);
+  }
+  50%, 100% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-.15rem);
+  }
+}
+p {
+  margin: 0;
+}
