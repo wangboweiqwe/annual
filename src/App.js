@@ -36,13 +36,13 @@ class App extends Component {
           <div className="swiper-slide">
             <div className="container">
               <img
-                src="http://www.mrpyq.com/page/annual2018/static/img/three_year.70e3e48.png"
+                src="images/three_year.png"
                 className="home-ladder" />
               <img
-                src="http://www.mrpyq.com/page/annual2018/static/img/logo.c00f9ed.png"
+                src="images/logo.png"
                 className="home-title" />
               <img
-                src="http://www.mrpyq.com/page/annual2018/static/img/bottomimg.33bbe86.gif"
+                src="images/bottomimg.gif"
                 className="bottomimg" />
             </div>
           </div>
@@ -68,7 +68,7 @@ class App extends Component {
                 <p className="ani" {...fadeIn}>你入住了名朋</p>
               </div>
               <img
-                src="http://www.mrpyq.com/page/annual2018/static/img/city.27080f1.png"
+                src="images/city.png"
                 className="city mymove1" />
                 <img
                   {...fadeIn}
@@ -87,7 +87,7 @@ class App extends Component {
                   <span className="ani" {...fadeIn}>天</span>
                 </p>
                 <img
-                  src="http://www.mrpyq.com/page/annual2018/static/img/bottomimg.33bbe86.gif"
+                  src="images/bottomimg.gif"
                   className="bottomimg" />
             </div>
           </div>
