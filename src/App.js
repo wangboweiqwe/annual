@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 // import { Carousel, WingBlank } from 'antd-mobile';
-import Swiper from 'swiper';
+// import Swiper from 'swiper';
 import Achievement from './Achievement';
 
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
     }
   }
   componentDidMount() {
-    new Swiper(this.wrapper, {
+    new window.Swiper(this.wrapper, {
       direction: 'vertical',
       loop: true,
       on:{
