@@ -52,7 +52,7 @@ class App extends Component {
                 <p className="ani" {...fadeIn}>这三年</p>
                 <p>
                   <span className="ani" {...fadeIn}>
-                    我在名朋世界里入住了
+                    我在demo世界里入住了
                   </span>
                   <span className="big normal ani" {...fadeIn} swiper-animate-delay="1s">0</span>
                   <span className="ani" {...fadeIn}>
@@ -65,7 +65,7 @@ class App extends Component {
                   swiper-animate-duration="0.5s"
                   swiper-animate-delay="2.2s"
                 >不久前</p>
-                <p className="ani" {...fadeIn}>你入住了名朋</p>
+                <p className="ani" {...fadeIn}>你入住了demo</p>
               </div>
               <img
                 src="images/city.png"
@@ -80,7 +80,7 @@ class App extends Component {
                   {...fadeIn}                
                   className="ani tishi"
                   swiper-animate-delay="4s"
-                >很荣幸成为名朋世界的一员</p>
+                >很荣幸成为demo世界的一员</p>
                 <p className="playdays">
                   <span className="ani" {...fadeIn}>签到天数</span>
                   <span className="big normal ani" {...fadeIn} swiper-animate-delay="2.8s">0</span>
