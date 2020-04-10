@@ -14,7 +14,7 @@ body {
   /* 竖屏 */
   html {
       width: 100vw;
-      font-size: 144px;
+      font-size: 50px;
   }
 }
 #root {
